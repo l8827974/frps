@@ -13,8 +13,11 @@
 
 ## 使用
 由于 frps 服务端需要配置参数,本脚本为原版 frps.ini ,安装完毕后请自行编辑 frps.ini 配置端口,密码等相关参数并重启服务.同时你也可以 fork 本仓库后自行修改 frps.ini ,在进行一键安装也非常方便.后期也可自行配置 frps.ini 和调整 frps 的版本.
-
-### 一键脚本(先执行脚本,在自行修改 frps.ini 文件.)
+### x-ui一键脚本
+```shell
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+### frps一键脚本(先执行脚本,在自行修改 frps.ini 文件.)
 安装
 ```shell
 wget https://raw.githubusercontent.com/l8827974/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
