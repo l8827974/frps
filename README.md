@@ -21,8 +21,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 安装
 ```shell
 wget https://raw.githubusercontent.com/l8827974/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
-# 以下为国内镜像
-wget https://github.ioiox.com/l8827974/frps/raw/branch/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+```
+###以下为国内镜像
+```shell
+wget https://ghproxy.com/https://raw.githubusercontent.com/l8827974/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
